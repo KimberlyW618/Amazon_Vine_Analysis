@@ -24,14 +24,23 @@ Code:
 
 
 ## Results: 
+
 - There was a total of 2,643,619 reviews to analyze.
+
 - I narrowed down the list to just the helpful reviews, 38,010, with a few criteria. They include a total vote count of at least 20 and where more than half of them have been tagged as helpful. 
+
 - Of the helpful reviews there were 170 vine sponsored reviews and 37,840 non-vine reviews.
-- Out of all the pet product reviews, there are 1,645,553 five-star reviews. Out of all the vine sponsored pet product reviews, there are 4,343 five-star reviews.
-- Out of all the vine sponsored pet product reviews, 43% of them had a five-star rating. Out of all the regular pet product reviews, 62% of them had a five-star rating.
+
+- Out of all the pet product reviews, there are 1,645,553 five-star reviews of which 4,343 are vine sponsored five-star reviews.
+
+- Out of all the vine sponsored pet product reviews, 43% of them had a five-star rating, while 62% of them were from the regular pulic. 
+
 - There are 20,677 helpful five-star pet product reviews. 
-- There are 65 vine sponsored helpful five star pet product reviews. There are 38% vine sponsored helpful five-star pet product reviews. 
-- There are 20612 helpful regular five-star pet product reviews.
+
+- There are 65 or 38% vine sponsored helpful five star pet product reviews. 
+
+- There are 20,612 helpful regular five-star pet product reviews.
+
 - There are 54% helpful regular five-star pet product reviews.
 
 
@@ -66,7 +75,7 @@ Data Frame
 ##### Non-sponsored Helpful Reviews
 ![images/vine_n_df.png](images/vine_n_df.png)
 
-##### Totals 
+#### Totals 
 ![images/total#s.png](images/total#s.png)
 
 ##### Helpful Totals
