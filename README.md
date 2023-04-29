@@ -77,7 +77,7 @@ The data shows that there are more five-star reviews written by regular folks. I
 ![images/vine_n_df.png](images/vine_n_df.png)
 
 ##### Totals 
-![images/total#s.png](images/total#s.png)
+![images/totals.png](images/totals.png)
 
 ##### Helpful Totals
 ![images/h_totals.png](images/h_totals.png)
