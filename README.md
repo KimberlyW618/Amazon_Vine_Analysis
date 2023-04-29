@@ -64,7 +64,7 @@ The data shows that there are more five-star reviews written by regular folks. I
 ![images/vine_df.png](images/vine_df.png)
 
 #### Vine Review Analysis 
-Data Frame
+#### Data Frame
 ![images/df.png](images/df.png)
 
 ##### Helpful Reviews
@@ -76,7 +76,7 @@ Data Frame
 ##### Non-sponsored Helpful Reviews
 ![images/vine_n_df.png](images/vine_n_df.png)
 
-#### Totals 
+##### Totals 
 ![images/total#s.png](images/total#s.png)
 
 ##### Helpful Totals
