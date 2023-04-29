@@ -7,41 +7,42 @@ Analyze Amazon reviews on pet products written by customers. Some of them are al
 ### Resources
 
 Software:
-Visual Studio Code (Version: 1.76.2)
-Google CoLab
-pgAdmin4/Postgres
-Amazon Web Services 
+- Visual Studio Code (Version: 1.76.2)
+- Google CoLab
+- pgAdmin4/Postgres
+- Amazon Web Services 
+
 Languages: PySpark, SQL
     
 Data: Pet Products via Amazon https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Pet_Products_v1_00.tsv.gz 
 
-Starter Code: [code/Starter_Code]( code/Starter_Code)
-
-Code:
--    ETL [code/Amazon_Reviews_ETL.ipynb](code/Amazon_Reviews_ETL.ipynb)
--    Schema: [code/schema.sql](code/schema.sql)
--    Review Analysis: [code/Vine_Review_Analysis.ipynb](code/Vine_Review_Analysis.ipynb)
+Starter Code: [code/Starter_Code](code/Starter_Code)
 
 
 ## Results: 
 
+### Code
+
+- ETL [code/Amazon_Reviews_ETL.ipynb](code/Amazon_Reviews_ETL.ipynb)
+- Schema: [code/schema.sql](code/schema.sql)
+- Review Analysis: [code/Vine_Review_Analysis.ipynb](code/Vine_Review_Analysis.ipynb)
+
+### Major Findings 
+
 - There was a total of 2,643,619 reviews to analyze.
+    - Out of all the pet product reviews, there are 1,645,553 five-star reviews of which 4,343 are vine sponsored.
+    - Out of all the vine sponsored pet product reviews, 43% of them had a five-star rating.
+    - Out of all the regular pet product reviews, there are 1,641,210 or 62% five-star reviews.
 
 - I narrowed down the list to just the helpful reviews, 38,010, with a few criteria. They include a total vote count of at least 20 and where more than half of them have been tagged as helpful. 
+    - There are 20,677 helpful five-star pet product reviews and 65 vine sponsored helpful five-star pet product reviews.
+    - Out of the helpful five-star pet product reviews 38% were written by vine sponsored folks 54% were written by regular folks.
 
-- Of the helpful reviews there were 170 vine sponsored reviews and 37,840 non-vine reviews.
+### Summary
 
-- Out of all the pet product reviews, there are 1,645,553 five-star reviews of which 4,343 are vine sponsored five-star reviews.
+In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
 
-- Out of all the vine sponsored pet product reviews, 43% of them had a five-star rating, while 62% of them were from the regular pulic. 
-
-- There are 20,677 helpful five-star pet product reviews. 
-
-- There are 65 or 38% vine sponsored helpful five star pet product reviews. 
-
-- There are 20,612 helpful regular five-star pet product reviews.
-
-- There are 54% helpful regular five-star pet product reviews.
+The data shows that there are more five-star reviews written by regular folks. If I were to preform additional analysis, I would further filter the helpful reviews to exclude the non-verified purchases. 
 
 
 ### Images 
@@ -81,4 +82,4 @@ Data Frame
 ##### Helpful Totals
 ![images/h_totals.png](images/h_totals.png)
 
-### Summary
+
